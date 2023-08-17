@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+
+#ricout {
+    width: 1500px;
+    height: 960px;
+    background-color: #fff;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+#ricout .img {
+    position: absolute;
+    top: -5rem;
+    left: -20rem;
+    z-index: 3;
+}
+
+#ricout .bg-rico01 {
+    display: block;
+    line-height: 0.8;
+    height: 5rem;
+    overflow: hidden;
+    text-align: right;
+    font-size: 5rem;
+    color: #f8f8f8;
+    letter-spacing: 0.1em;
+    padding-right: 2rem;
+}
+
+#ricout article {
+    position: relative;
+    padding-left: calc(50% - 9rem);
+    padding-top: 11rem;
+    padding-bottom: 15rem;
+    margin-left: 21rem;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ricout article .bg-rico02 {
+    font-size: 9.0rem;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+    letter-spacing: 0.1em;
+    text-align: right;
+    line-height: 0.94;
+}
+
+#ricout .txtbox small {
+    display: block;
+    font-size: 2rem;
+    color: #c9ab81;
+}
+
+#ricout .txtbox h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 5rem;
+    margin-top: 2.5rem;
+}
+
+#ricout .txtbox .desc {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+    line-height: 1.55;
+    z-index: 2;
+}
+
+
+.m-btnbox .more-btn {
+    position: relative;
+    display: inline-flex;
+    height: 2rem;
+    align-items: center;
+}
+
+.m-btnbox .more-btn .btn-bg {
+    display: inline-block;
+    transition: all .4s ease-out;
+    height: 4.6rem;
+    width: 5.5rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.m-btnbox .more-btn .btn-txt {
+    z-index: 1;
+    font-size: 1.8rem;
+    color: #211e1f;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    letter-spacing: 0.1em !important;
+}
+
+
+.m-btnbox .more-btn.gry2 .btn-bg {
+    background: #e6e6e6;
+}
+
+
+.m-btnbox .more-btn:hover .btn-bg {
+    width: 100%;
+}
+
+
+

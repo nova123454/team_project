@@ -6,12 +6,13 @@
     height: 960px;
     background-color: #fff;
     margin-bottom: 120px;
+    margin: 0 auto;
     position: relative;
 }
 
 #ricout .img {
     position: absolute;
-    top: -5rem;
+    top: -1rem;
     left: -20rem;
     z-index: 3;
 }
@@ -116,3 +117,70 @@
 
 
 
+
+
+
+
+
+
+
+#footer {
+	position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+    margin-top: 95px;
+  
+}
+
+	#footer-inside {
+		margin: 0px auto;
+		display: table;
+	}
+
+		.footer-inside-each {
+			float: left;
+			margin: 35px 17px;
+			padding: 10px;
+		}
+
+		#footer-inside-each-buttons {
+			position: absolute;
+			bottom: 33px;
+			right: 48px;
+		}
+
+		
+			#footer-inside-each-bloquo,
+			#footer-inside-each-sage {
+				display:flex;
+                flex-wrap: wrap;
+				width: 33px;
+				height: 43px;
+				background-image: url('');
+				background-size: 13px 23px;
+				background-repeat: no-repeat;
+				background-position: center;
+				opacity: .3;
+			}
+
+			#footer-inside-each-sage {
+				background-image: url('');
+				background-size: 14px 23px;
+			}
+
+			#footer-inside-each-circle {
+				margin-top: 21px;
+				margin-left: 1px;
+				float: left;
+				width: 4px;
+				height: 4px;
+				border-radius: 50%;
+				background-color: #1A1818;
+				opacity: .3;
+			}
+
+			
+
+		

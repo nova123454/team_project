@@ -120,17 +120,13 @@
 
 
 
-
-
-
-
 #footer {
 	position: relative;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
 	font-weight: 300;
-	font-size: 16px;
-    margin-top: 95px;
+	font-size: 15px;
+    margin-top: 105px;
   
 }
 
@@ -174,9 +170,9 @@
 				margin-top: 21px;
 				margin-left: 1px;
 				float: left;
-				width: 4px;
-				height: 4px;
-				border-radius: 50%;
+				width: 5%;
+				height: 5px;
+				border-radius: 80%;
 				background-color: #1A1818;
 				opacity: .3;
 			}

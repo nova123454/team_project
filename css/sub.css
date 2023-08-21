@@ -1,1 +1,122 @@
 @charset "utf-8";
+
+
+
+
+#shock{
+
+}
+
+
+
+
+
+#xyzbox{
+    width: 1500px; height: 1400px;
+    background-color: #000;
+margin-bottom: 120px;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+
+#xyzbox .xbox{
+width: 1162px; height: 350px;
+background-color: aqua;
+margin: 0 auto;
+margin-bottom: 90px;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+#xyzbox .xtextbox{
+
+    width: 533px;
+    height: 295px;
+    background-color: yellow;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+#xyzbox .ximgbox {
+
+width: 533px;
+height: 295px;
+background-color: blue;
+margin: 0 auto;
+
+}
+
+
+
+
+
+#xyzbox .ybox{
+    width: 1162px; height: 350px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#xyzbox .ytextbox{
+
+    width: 533px;
+    height: 295px;
+    background-color: yellow;
+    margin: 0 auto;
+    
+
+}
+
+#xyzbox .yimgbox{
+
+    width: 533px;
+height: 295px;
+background-color: blue;
+margin: 0 auto;
+
+}
+
+
+
+
+#xyzbox .zbox{
+    width: 1162px; height: 350px;
+    background-color: green;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#xyzbox .ztextbox{
+
+    width: 533px;
+    height: 295px;
+    background-color: yellow;
+    margin: 0 auto;
+
+}
+
+
+#xyzbox .zimgbox{
+
+    width: 533px;
+    height: 295px;
+    background-color: blue;
+    margin: 0 auto;
+
+}

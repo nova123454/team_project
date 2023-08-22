@@ -12,14 +12,14 @@ a{text-decoration: none;}
 body{font-family: 'Montserrat', 'NotoSansKR' ;}
 
 h3{
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 	margin-bottom: 45px;
 }
 
 
 p{
 	font-size: 1.1rem;
-    color: #c9ab81;
+    color: #000;
 	margin-bottom: 90px;
 }
 
@@ -61,13 +61,15 @@ p{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    opacity: 0.8;
 }
 
 .ricout article h1{
     position: absolute;
-    top: -77px; right: 0;
-    font-size: 80px;
+    top: -98px; right: 0;
+    font-size: 101px;
     color: #e6e6e6;
+    opacity: 0.5;
 
 }
 

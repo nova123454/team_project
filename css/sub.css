@@ -5,10 +5,16 @@
 
 #shock{
 
+    width: 100%;
+    height: 960px;
+    margin: 0 auto;
 }
 
 
+#shock.shocktitle{
 
+
+}
 
 
 #xyzbox{
@@ -36,14 +42,28 @@ flex-wrap: wrap;
 
     width: 533px;
     height: 295px;
-    background-color: yellow;
+    background-color: #000;
     margin: 0 auto;
 
 }
 
 
+#xyzbox .xtitle{
+    width: 533px;
+    height: 100px;
+color: #fff;
+font-size: 30px;
+margin-top: 25px;
+}
 
 
+#xyzbox .xtext{
+    width: 533px;
+    height:195px;
+color: #fff;
+font-size: 18px;
+
+}
 
 
 
@@ -55,9 +75,6 @@ background-color: blue;
 margin: 0 auto;
 
 }
-
-
-
 
 
 #xyzbox .ybox{
@@ -74,11 +91,32 @@ margin: 0 auto;
 
     width: 533px;
     height: 295px;
-    background-color: yellow;
+    background-color: #000;
     margin: 0 auto;
-    
-
+   
 }
+
+    #xyzbox .ytitle{
+        width: 533px;
+        height: 100px;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 25px;
+    }
+    
+    
+    #xyzbox .ytext{
+        width: 533px;
+        height:195px;
+    color: #fff;
+    font-size: 18px;
+    
+    }
+
+
+
+
+
 
 #xyzbox .yimgbox{
 
@@ -106,10 +144,33 @@ margin: 0 auto;
 
     width: 533px;
     height: 295px;
-    background-color: yellow;
+    background-color: black;
     margin: 0 auto;
 
 }
+
+#xyzbox .ztitle{
+    width: 533px;
+    height: 100px;
+color: #fff;
+font-size: 30px;
+margin-top: 25px;
+}
+
+
+#xyzbox .ztext{
+    width: 533px;
+    height:195px;
+color: #fff;
+font-size: 18px;
+
+}
+
+
+
+
+
+
 
 
 #xyzbox .zimgbox{

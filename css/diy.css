@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+
+#footer {
+	
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+    margin-top: 105px;
+    color: #000;
+  
+}
+
+	#footer-inside {
+		margin: 0 auto;
+		display: table;
+	}
+
+		.footer-inside-each {
+			float: left;
+			margin: 35px 17px;
+			padding: 10px;
+		}

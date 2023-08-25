@@ -26,6 +26,10 @@ body {
   width: 100%;
   height: 960px;
   margin: 0;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: -1;
 }
 
 #shock img {
@@ -33,11 +37,22 @@ body {
   height: 100%;
 }
 
-#shock .shocktitle {
+#shock .shockwave {
+  width: 1114px;
+  height: 240px;
+}
+
+#shock .shockwave h1 {
+  font-size: 45px;
+  color: #fff;
+  text-align: left;
+  justify-items: center;
+  margin-top: 390px;
+  margin-left: 240px;
 }
 
 #between {
-  width: 1680px;
+  width: 100%;
   height: 490px;
   display: flex;
   margin: 0 auto;
@@ -48,15 +63,14 @@ body {
   width: 840px;
   height: 490px;
   margin: 0 auto;
-  background-color: blue;
 }
 
 .betweenbigbox h2 {
   width: 420px;
   height: 490px;
   margin: 0 auto;
-  margin-top: 150px;
-  text-align: center;
+  margin-top: 130px;
+  text-align: left;
   font-size: 30px;
   color: #000;
 }
@@ -65,20 +79,19 @@ body {
   width: 840px;
   height: 490px;
   margin: 0 auto;
-  background-color: brown;
 }
 
 .betweensmallbox p {
   width: 420px;
   height: 490px;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 130px;
   text-align: left;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 #xyzbox {
-  width: 1500px;
+  width: 100%;
   height: 1400px;
   background-color: #000;
   margin-bottom: 120px;
@@ -91,7 +104,6 @@ body {
 #xyzbox .xbox {
   width: 1162px;
   height: 350px;
-  background-color: aqua;
   margin: 0 auto;
   margin-bottom: 90px;
   display: flex;
@@ -124,14 +136,19 @@ body {
 #xyzbox .ximgbox {
   width: 533px;
   height: 295px;
-  background-color: blue;
+
   margin: 0 auto;
+}
+
+#xyzbox .ximgbox img {
+  width: 100%;
+  height: 100%;
 }
 
 #xyzbox .ybox {
   width: 1162px;
   height: 350px;
-  background-color: red;
+
   margin: 0 auto;
   margin-bottom: 90px;
   display: flex;
@@ -164,14 +181,19 @@ body {
 #xyzbox .yimgbox {
   width: 533px;
   height: 295px;
-  background-color: blue;
+
   margin: 0 auto;
+}
+
+#xyzbox .yimgbox img {
+  width: 100%;
+  height: 100%;
 }
 
 #xyzbox .zbox {
   width: 1162px;
   height: 350px;
-  background-color: green;
+
   margin: 0 auto;
   margin-bottom: 90px;
   display: flex;
@@ -204,8 +226,12 @@ body {
 #xyzbox .zimgbox {
   width: 533px;
   height: 295px;
-  background-color: blue;
   margin: 0 auto;
+}
+
+#xyzbox .zimgbox img {
+  width: 100%;
+  height: 100%;
 }
 
 #shockwave {
@@ -215,7 +241,7 @@ body {
 }
 
 #mytube {
-  width: 1600px;
+  width: 100%;
   height: 2400px;
   margin: 0 auto;
   background-color: #000;
@@ -226,17 +252,20 @@ body {
   width: 1162px;
   height: 778px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 30px;
   align-items: center;
-  background-color: green;
 }
 
 .tubesize h1 {
+  color: #fff;
   font-size: 42px;
+  margin-top: 20px;
 }
 
 .tubesize p {
+  color: #fff;
   font-size: 26px;
+  margin-top: 20px;
 }
 
 #mytube .tubesize img {
@@ -249,45 +278,50 @@ body {
   width: 1162px;
   height: 690px;
   margin: 0 auto;
+  margin-top: 40px;
   display: flex;
-  background-color: coral;
 }
 
 .textsize .leftsize {
   width: 581px;
   height: 690px;
-  background-color: darksalmon;
 }
 
 .textsize .leftsize h2 {
   font-size: 30px;
   color: #fff;
+  margin: 0 24px;
 }
 
 .textsize .leftsize h3 {
-  font-size: 25px;
+  font-size: 22px;
   color: #fff;
+  margin: 0 24px;
 }
 
 .textsize .leftsize p {
   font-size: 17px;
-  color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0 24px;
 }
 
 .textsize .rightsize {
   width: 581px;
   height: 690px;
-  background-color: cornflowerblue;
 }
 
 .textsize .rightsize h3 {
-  font-size: 25px;
+  font-size: 26px;
   color: #fff;
+  margin: 0 38px;
 }
 
 .textsize .rightsize p {
-  font-size: 17px;
-  color: #000;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0 42px;
 }
 
 .textsize2 {
@@ -295,42 +329,49 @@ body {
   height: 690px;
   margin: 0 auto;
   display: flex;
-  background-color: brown;
 }
 
 .textsize2 .leftsize2 {
   width: 581px;
   height: 690px;
-  background-color: cadetblue;
+  margin: 0 24px;
 }
 
 .textsize2 .leftsize2 h2 {
   font-size: 30px;
   color: #fff;
+  margin: 0 5px;
 }
 
 .textsize2 .leftsize2 h3 {
-  font-size: 25px;
+  font-size: 22px;
   color: #fff;
+  margin: 0 5px;
 }
 
 .textsize2 .leftsize2 p {
   font-size: 17px;
-  color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0 5px;
+  margin-top: 10px;
 }
 
 .textsize2 .rightsize2 {
   width: 581px;
   height: 690px;
-  background-color: rebeccapurple;
+  margin-top: 55px;
 }
 
 .textsize2 .rightsize2 h3 {
-  font-size: 25px;
+  font-size: 22px;
   color: #fff;
+  margin: 0 24px;
 }
 
 .textsize2 .rightsize2 p {
   font-size: 17px;
-  color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0 24px;
 }

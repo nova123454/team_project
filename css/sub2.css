@@ -36,6 +36,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  margin-top: 150px;
 }
 
 #visit .graphtitle {
@@ -45,6 +46,9 @@ body {
 }
 
 #visit .graphtitle h2 {
+  text-align: left;
+  font-size: 35px;
+  color: #fff;
 }
 
 #visit .graphletter {
@@ -54,6 +58,9 @@ body {
 }
 
 #visit .graphletter h2 {
+  text-align: left;
+  font-size: 35px;
+  color: #fff;
 }
 
 #visit .graph2 {
@@ -61,3 +68,11 @@ body {
   height: 1037px;
   background-color: bisque;
 }
+
+
+
+
+#visit .graph2 h4{
+ 
+}
+

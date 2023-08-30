@@ -280,13 +280,17 @@ nav ul li .sub li:not(:last-child) {
 /* footer */
 
 #footer {
+    width: 100%;
     font-weight: 300;
     font-size: 16px;
-    margin-top: 120px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
+
+
 
 #footer-inside {
     width: 600px;

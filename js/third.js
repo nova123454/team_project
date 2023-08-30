@@ -1,6 +1,12 @@
 $(document).ready(function () {
   console.log("a");
   $(".cover").animate({ width: 0 }, 1000);
+
+  if (window.matchMedia("(min-width:577px) and (max-width: 768px)").matches) { 
+      $('iframe').height('400px');
+  } else if(window.matchMedia("(max-width: 576px)").matches) { 
+    $('iframe').height('300px');
+  }
 });
 
 $(function () {

@@ -1,6 +1,6 @@
 $(document).ready(function () {
   console.log("a");
-  $(".cover").animate({ width: 0 }, 1000);
+  $(".shocktt .cover").animate({ width: 0 }, 1000);
 
   if (window.matchMedia("(min-width:577px) and (max-width: 768px)").matches) { 
       $('iframe').height('400px');
@@ -15,6 +15,12 @@ $(function () {
   $(window).scroll(function () {
     var ws = $(this).scrollTop();
     console.log(ws);
+
+    var bb = $(".betweenbigbox").offset().top;
+ 
+    if(ws > bb - 800){
+      $(".betweenbigbox .cover").animate({ width: 0 }, 1000);
+    }
 
     var xb = $(".xbox").offset().top;
 

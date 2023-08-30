@@ -21,10 +21,10 @@
 }
 
 #shock .shockwave {
-   width: 55%; 
+   width: 43%; 
   height: auto; 
   position: relative;
-  margin-top: 150px;
+  margin-top: 350px;
   margin-left: 150px;
 }
 
@@ -35,15 +35,16 @@
 
 #shock .shockwave .shocktt {
    color: #fff;
-  text-align: center;
+  text-align: left;
   justify-items: center;
   
 }
 
 #shock .shockwave .shocktt h5{
-  font-size: 45px;
+  font-size: 31px;
   position: relative;
-  margin: 2px 0;
+  margin: 0 auto;
+  margin: 8px;
   display: inline-block;
 }
 
@@ -61,34 +62,36 @@
 
 #between {
   width: 100%;
+  height: 490px;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   background-color: #fff;
 }
 
 .betweenbigbox {
-  width: 35%;
+  width: 100%;
   margin: 0 auto;
 }
 
-.betweenbigbox h2 {
-  width: 100%;
+.betweenbigbox h5 {
+  width: 90%;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 30px;
   text-align: left;
   font-size: 30px;
   color: #000;
 }
 
 .betweensmallbox {
-  width: 35%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .betweensmallbox p {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 30px;
   text-align: left;
   font-size: 17px;
 }
@@ -96,7 +99,7 @@
 #xyzbox {
   width: 100%;
   background-color: #000;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +118,7 @@
 #xyzbox .xtextbox {
   width: 100%;
   background-color: #000;
-  margin: 0 auto;
+  margin: 55px;
   
  
 }
@@ -129,14 +132,14 @@
 }
 
 #xyzbox .xtext {
-  width: 80%;
+  width: 70%;
   color: #fff;
   font-size: 18px;
   margin-top: 25px;
 }
 
 #xyzbox .ximgbox {
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -160,25 +163,26 @@
   width: 100%;
   background-color: #000;
   margin: 0 auto;
-  margin-top: 25px;
+  margin: 55px;
+  order: 1;
 }
 
 #xyzbox .ytitle {
-  width: 90%;
+  width: 100%;
   color: #fff;
   font-size: 30px;
   margin-top: 25px;
 }
 
 #xyzbox .ytext {
-  width: 90%;
+  width: 100%;
   color: #fff;
   font-size: 18px;
   margin-top: 35px;
 }
 
 #xyzbox .yimgbox {
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -199,28 +203,28 @@
 }
 
 #xyzbox .ztextbox {
-  width: 90%;
+  width: 100%;
   background-color: black;
   margin: 0 auto;
   margin-top: 45px;
 }
 
 #xyzbox .ztitle {
-  width: 80%;
+  width: 100%;
   color: #fff;
   font-size: 30px;
-  margin-top: 25px;
+  margin: 55px;
 }
 
 #xyzbox .ztext {
-  width: 100%;
+  width: 90%;
   color: #fff;
   font-size: 18px;
-  margin-top: 45px;
+ margin: 0 auto;
 }
 
 #xyzbox .zimgbox {
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -231,6 +235,7 @@
 
 #shockwave {
   width: 100%;
+  height: 300px;
   margin: 0 auto;
 }
 
@@ -274,13 +279,13 @@
   width: 100%;
   margin: 0 auto;
   margin-top: 40px;
-  display: flex;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
 }
 
 .textsize .leftsize {
-  width: 50%;
+  width: 100%;
+  margin: 10px;
 }
 
 .textsize .leftsize h2 {
@@ -303,8 +308,8 @@
 }
 
 .textsize .rightsize {
-  width: 50%;
- 
+  width: 100%;
+  margin: 10px;
 }
 
 .textsize .rightsize h3 {
@@ -323,14 +328,13 @@
 .textsize2 {
   width: 100%;
   margin: 0 auto;
-  display: flex;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
 }
 
 .textsize2 .leftsize2 {
-  width: 50%;
-  margin: 0 24px;
+  width: 100%;
+  margin: 0 3px;
 }
 
 .textsize2 .leftsize2 h2 {
@@ -354,8 +358,8 @@
 }
 
 .textsize2 .rightsize2 {
-  width: 50%;
-  margin-top: 55px;
+  width: 100%;
+  margin: 0 10px;
 }
 
 .textsize2 .rightsize2 h3 {
@@ -413,9 +417,9 @@
 }
 
 #shock .shockwave .shocktt h5{
-  font-size: 45px;
+  font-size: 35px;
   position: relative;
-  margin: 2px 0;
+  margin: 5px 0;
   display: inline-block;
 }
 
@@ -433,34 +437,38 @@
 
 #between {
   width: 100%;
-  display: flex;
+  
   margin: 0 auto;
   background-color: #fff;
 }
 
 .betweenbigbox {
-  width: 35%;
-  margin: 0 auto;
-}
-
-.betweenbigbox h2 {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 50px;
-  text-align: left;
-  font-size: 30px;
-  color: #000;
-}
-
-.betweensmallbox {
   width: 65%;
   margin: 0 auto;
 }
 
-.betweensmallbox p {
-  width: 80%;
+.betweenbigbox h2 {
+  width: 100%;
   margin: 0 auto;
   margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+
+.betweenbigbox .cover{
+  background-color: #000;
+}
+
+.betweensmallbox {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.betweensmallbox p {
+  width: 100%;
+  margin: 0 auto;
+  margin: 35px;
   text-align: left;
   font-size: 17px;
 }
@@ -533,6 +541,7 @@
   background-color: #000;
   margin: 0 auto;
   margin-top: 75px;
+  order: 1;
 }
 
 #xyzbox .ytitle {
@@ -645,13 +654,12 @@
   width: 100%;
   margin: 0 auto;
   margin-top: 40px;
-  display: flex;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
 }
 
 .textsize .leftsize {
-  width: 50%;
+  width: 100%;
 }
 
 .textsize .leftsize h2 {
@@ -674,7 +682,7 @@
 }
 
 .textsize .rightsize {
-  width: 50%;
+  width: 100%;
 }
 
 .textsize .rightsize h3 {
@@ -693,14 +701,13 @@
 .textsize2 {
   width: 100%;
   margin: 0 auto;
-  display: flex;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
 }
 
 .textsize2 .leftsize2 {
-  width: 50%;
-  margin: 0 24px;
+  width: 100%;
+  margin: 0 5px;
 }
 
 .textsize2 .leftsize2 h2 {
@@ -724,8 +731,8 @@
 }
 
 .textsize2 .rightsize2 {
-  width: 50%;
-  margin-top: 55px;
+  width: 100%;
+  margin: 0 10px;
 }
 
 .textsize2 .rightsize2 h3 {
@@ -1206,14 +1213,23 @@
   margin: 0 auto;
 }
 
-.betweenbigbox h2 {
-  width: 420px;
+.betweenbigbox h5 {
+  /* width: 420px;
   height: 490px;
   margin: 0 auto;
   margin-top: 140px;
   text-align: left;
   font-size: 30px;
-  color: #000;
+  color: #000; */
+
+  font-size: 45px;
+  position: relative;
+  margin: 2px 0;
+  display: inline-block;
+}
+
+.betweenbigbox .cover{
+  background-color: #000;
 }
 
 .betweensmallbox {
@@ -1528,5 +1544,6 @@
   font-size: 17px;
   color: #fff;
   letter-spacing: 1px;
-  margin: 0 24px;
+  margin: 24px;
+  padding: 0 5px;
 }}

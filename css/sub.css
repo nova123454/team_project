@@ -21,11 +21,11 @@
 }
 
 #shock .shockwave {
-   width: 43%; 
+   width: 71%; 
   height: auto; 
   position: relative;
-  margin-top: 350px;
-  margin-left: 150px;
+  margin-top: 380px;
+  margin-left: 40px;
 }
 
 #shock .shockwave:nth-of-type(2)
@@ -41,7 +41,7 @@
 }
 
 #shock .shockwave .shocktt h5{
-  font-size: 31px;
+  font-size: 20px;
   position: relative;
   margin: 0 auto;
   margin: 8px;
@@ -57,12 +57,11 @@
   height: 100%;
   background-color: #fff;
 
-
 }
 
 #between {
   width: 100%;
-  height: 490px;
+  height: 590px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -75,13 +74,27 @@
 }
 
 .betweenbigbox h5 {
-  width: 90%;
+  position: relative;
+  /* width: 100%; */
   margin: 0 auto;
-  margin-top: 30px;
-  text-align: left;
-  font-size: 30px;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 25px;
   color: #000;
+  display: inline-block;
 }
+
+.betweenbigbox .cover {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+
+}
+
 
 .betweensmallbox {
   width: 100%;
@@ -91,7 +104,7 @@
 .betweensmallbox p {
   width: 80%;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: left;
   font-size: 17px;
 }
@@ -171,7 +184,7 @@
   width: 100%;
   color: #fff;
   font-size: 30px;
-  margin-top: 25px;
+  margin: 0 1px;
 }
 
 #xyzbox .ytext {
@@ -213,7 +226,7 @@
   width: 100%;
   color: #fff;
   font-size: 30px;
-  margin: 55px;
+  margin: 0 25px;
 }
 
 #xyzbox .ztext {
@@ -221,6 +234,7 @@
   color: #fff;
   font-size: 18px;
  margin: 0 auto;
+ margin-top: 15px;
 }
 
 #xyzbox .zimgbox {
@@ -241,7 +255,8 @@
 
 #mytube {
   width: 100%;
-  margin-bottom: 40px;
+  height: 4200px;
+  margin-top: 10px;
   margin: 0 auto;
   background-color: #000;
   align-items: center;
@@ -250,29 +265,32 @@
 #mytube .tubesize {
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   align-items: center;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
+  
 }
 
 .tubesize h1 {
   color: #fff;
   font-size: 42px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .tubesize p {
   color: #fff;
   font-size: 26px;
-  margin-top: 10px;
+  margin-top: 15px;
+  word-break: break-all;
 
 }
 
-#mytube .tubesize img {
+#mytube .tubesize iframe {
   width: 100%;
-  height: 100%;
+  height: 80%;
   margin: 0 auto;
+  border: none;
 }
 
 #mytube .textsize {
@@ -281,11 +299,14 @@
   margin-top: 40px;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
+  word-break: break-all;
 }
 
 .textsize .leftsize {
   width: 100%;
-  margin: 10px;
+  margin: 5px;
+  word-break: break-all;
+ 
 }
 
 .textsize .leftsize h2 {
@@ -295,7 +316,7 @@
 }
 
 .textsize .leftsize h3 {
-  font-size: 22px;
+  font-size: 26px;
   color: #fff;
   margin: 0 24px;
 }
@@ -309,70 +330,86 @@
 
 .textsize .rightsize {
   width: 100%;
-  margin: 10px;
+  margin: 5px;
+  word-break: break-all;
 }
 
 .textsize .rightsize h3 {
-  font-size: 26px;
+  font-size: 22px;
   color: #fff;
-  margin: 0 38px;
+  margin: 0 30px;
 }
 
 .textsize .rightsize p {
-  font-size: 16px;
+  font-size: 17px;
   color: #fff;
   letter-spacing: 1px;
-  margin: 0 42px;
+  margin: 0 31px;;
+  word-break: break-all;
 }
 
 .textsize2 {
   width: 100%;
-  margin: 0 auto;
+  margin: 5px;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
+ 
 }
 
 .textsize2 .leftsize2 {
   width: 100%;
-  margin: 0 3px;
+  margin: 5px;
+ 
 }
 
 .textsize2 .leftsize2 h2 {
-  font-size: 30px;
+  text-align: left;
+  font-size: 29px;
   color: #fff;
-  margin: 0 5px;
+  margin: 20px;
 }
 
 .textsize2 .leftsize2 h3 {
-  font-size: 22px;
+  text-align: left;
+  font-size: 25px;
   color: #fff;
-  margin: 0 5px;
+  margin: 20px;
 }
 
 .textsize2 .leftsize2 p {
   font-size: 17px;
   color: #fff;
   letter-spacing: 1px;
-  margin: 0 5px;
-  margin-top: 10px;
+  margin: 0 auto;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  word-break: break-all;
 }
 
 .textsize2 .rightsize2 {
   width: 100%;
-  margin: 0 10px;
+  margin: 5px;
+  word-break: break-all;
 }
 
 .textsize2 .rightsize2 h3 {
-  font-size: 22px;
+  text-align: left;
+  font-size: 25px;
   color: #fff;
-  margin: 0 24px;
+  margin: 40px;
+  padding: 0 10px;
+ 
 }
 
 .textsize2 .rightsize2 p {
   font-size: 17px;
+  text-align: left;
   color: #fff;
   letter-spacing: 1px;
-  margin: 0 24px;
+  margin: 0 10px;
+  padding: 20px;
+  word-break: break-all;
 }}
 
 
@@ -401,7 +438,7 @@
   width: 45%;
   position: relative;
   margin-top: 300px;
-  margin-left: 200px;
+  margin-left: 120px;
 }
 
 #shock .shockwave:nth-of-type(2)
@@ -417,7 +454,8 @@
 }
 
 #shock .shockwave .shocktt h5{
-  font-size: 35px;
+ 
+  font-size: 28px;
   position: relative;
   margin: 5px 0;
   display: inline-block;
@@ -437,26 +475,32 @@
 
 #between {
   width: 100%;
-  
   margin: 0 auto;
   background-color: #fff;
 }
 
 .betweenbigbox {
-  width: 65%;
+  width: 100%;
   margin: 0 auto;
 }
 
-.betweenbigbox h2 {
+.betweenbigbox h5 {
+  position: relative;
   width: 100%;
   margin: 0 auto;
-  margin-top: 50px;
-  text-align: center;
-  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 120px;
+  font-size: 22px;
   color: #000;
 }
 
 .betweenbigbox .cover{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
   background-color: #000;
 }
 
@@ -618,6 +662,7 @@
 
 #mytube {
   width: 100%;
+  height: 3300px;
   margin: 0 auto;
   background-color: #000;
   align-items: center;
@@ -630,6 +675,7 @@
   align-items: center;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
+  word-break: break-all;
 }
 
 .tubesize h1 {
@@ -644,10 +690,11 @@
   margin-top: 20px;
 }
 
-#mytube .tubesize img {
+#mytube .tubesize iframe {
   width: 100%;
-  height: 100%;
+  height: 80%;
   margin: 0 auto;
+  border: none;
 }
 
 #mytube .textsize {
@@ -656,6 +703,7 @@
   margin-top: 40px;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
+  word-break: break-all;
 }
 
 .textsize .leftsize {
@@ -700,9 +748,11 @@
 
 .textsize2 {
   width: 100%;
+  height: 1300px;
   margin: 0 auto;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
+  word-break: break-all;
 }
 
 .textsize2 .leftsize2 {
@@ -772,7 +822,7 @@
   width: 100%;
   position: relative;
   margin-top: 390px;
-  margin-left: 240px;
+  margin-left: 135px;
 }
 
 #shock .shockwave:nth-of-type(2)
@@ -788,9 +838,9 @@
 }
 
 #shock .shockwave .shocktt h5{
-  font-size: 45px;
+  font-size: 35px;
   position: relative;
-  margin: 2px 0;
+  margin: 5px 0;
   display: inline-block;
 }
 
@@ -817,13 +867,30 @@
   margin: 0 auto;
 }
 
-.betweenbigbox h2 {
-  width: 50%;
+.betweenbigbox h5 {
+
+  font-size: 28px;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 55px;
+  display: inline-block;
+  /* width: 50%; 
   margin: 0 auto;
   margin-top: 100px;
   text-align: left;
   font-size: 30px;
-  color: #000;
+  color: #000; */
+}
+
+.betweenbigbox .cover {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+
 }
 
 .betweensmallbox {
@@ -835,9 +902,9 @@
   width: 80%;
   height: 300px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: left;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 #xyzbox {
@@ -874,7 +941,7 @@
   width: 100%;
   height: 100px;
   color: #fff;
-  font-size: 30px;
+  font-size: 28px;
   margin: 25px;
 }
 
@@ -883,8 +950,8 @@
   height: 195px;
   color: #fff;
   font-size: 18px;
-  margin: 0 2px;
-  padding: 0 10px;
+  margin: 0 3px;
+  padding: 0 25px;
 }
 
 #xyzbox .ximgbox {
@@ -921,8 +988,9 @@
   width: 100%;
   height: 100px;
   color: #fff;
-  font-size: 30px;
-  margin-top: 25px;
+  font-size: 28px;
+  margin-top: 15px;
+  margin: 10px;
 }
 
 #xyzbox .ytext {
@@ -930,12 +998,13 @@
   height: 195px;
   color: #fff;
   font-size: 18px;
+  margin-top: 25px;
+  padding: 0 15px;
 }
 
 #xyzbox .yimgbox {
   width: 50%;
   height: 295px;
-
   margin: 0 auto;
 }
 
@@ -960,22 +1029,23 @@
   height: 295px;
   background-color: black;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 #xyzbox .ztitle {
   width: 100%;
   height: 100px;
   color: #fff;
-  font-size: 30px;
-  margin:25px;
+  font-size: 28px;
+  margin: 0 25px;
 }
 
 #xyzbox .ztext {
   width: 100%;
   color: #fff;
   font-size: 18px;
-  margin: 0 5px;
-  padding: 0 10px;
+  margin: 0 15px;
+  padding: 0 20px;
 }
 
 #xyzbox .zimgbox {
@@ -996,7 +1066,7 @@
 
 #mytube {
   width: 100%;
-  height: 2400px;
+  height: 2700px;
   margin: 0 auto;
   background-color: #000;
   align-items: center;
@@ -1025,10 +1095,11 @@
   margin-top: 20px;
 }
 
-#mytube .tubesize img {
+#mytube .tubesize iframe {
   width: 100%;
-  height: 100%;
+  height: 80%;
   margin: 0 auto;
+  border: none;
 }
 
 #mytube .textsize {
@@ -1064,6 +1135,7 @@
   color: #fff;
   letter-spacing: 1px;
   margin: 0 24px;
+  word-break: break-all;
 }
 
 .textsize .rightsize {
@@ -1075,6 +1147,7 @@
   font-size: 26px;
   color: #fff;
   margin: 0 38px;
+  margin-top: 35px;
 }
 
 .textsize .rightsize p {
@@ -1082,6 +1155,7 @@
   color: #fff;
   letter-spacing: 1px;
   margin: 0 42px;
+  word-break: break-all;
 }
 
 .textsize2 {
@@ -1103,12 +1177,14 @@
   font-size: 30px;
   color: #fff;
   margin: 0 5px;
+  margin-top: 25px;
 }
 
 .textsize2 .leftsize2 h3 {
   font-size: 22px;
   color: #fff;
   margin: 0 5px;
+  margin-top: 15px;
 }
 
 .textsize2 .leftsize2 p {
@@ -1117,12 +1193,13 @@
   letter-spacing: 1px;
   margin: 0 5px;
   margin-top: 10px;
+  word-break: break-all;
 }
 
 .textsize2 .rightsize2 {
   width: 581px;
   height: 690px;
-  margin-top: 55px;
+  margin-top: 80px;
 }
 
 .textsize2 .rightsize2 h3 {
@@ -1136,6 +1213,7 @@
   color: #fff;
   letter-spacing: 1px;
   margin: 0 24px;
+  word-break: break-all;
 }}
 
 
@@ -1163,7 +1241,7 @@
   height: 240px; */
   position: relative;
   margin-top: 390px;
-  margin-left: 220px;
+  margin-left: 250px;
 }
 
 
@@ -1181,7 +1259,7 @@
 }
 
 #shock .shockwave .shocktt h5{
-  font-size: 45px;
+  font-size: 36px;
   position: relative;
   margin: 2px 0;
   display: inline-block;
@@ -1222,9 +1300,10 @@
   font-size: 30px;
   color: #000; */
 
-  font-size: 45px;
+  font-size: 29px;
   position: relative;
-  margin: 2px 0;
+  margin-left: 320px;
+  margin-top: 75px;
   display: inline-block;
 }
 
@@ -1242,14 +1321,14 @@
   width: 420px;
   height: 490px;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 100px;
   text-align: left;
   font-size: 17px;
 }
 
 #xyzbox {
   width: 100%;
-  /* height: 1400px; */
+  /* height: 500px; */
   background-color: #000;
   margin-bottom: 120px;
   margin: 0 auto;
@@ -1283,7 +1362,7 @@
   height: 100px;
   color: #fff;
   font-size: 30px;
-  margin-top: 55px;
+  margin-top: 35px;
 
 }
 
@@ -1291,8 +1370,8 @@
   width: 533px;
   height: 195px;
   color: #fff;
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 17px;
+  margin-top: 65px;
  
 }
 
@@ -1331,14 +1410,15 @@
   height: 100px;
   color: #fff;
   font-size: 30px;
-  margin-top: 55px;
+  margin-top: 25px;
 }
 
 #xyzbox .ytext {
   width: 533px;
   height: 195px;
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
+  margin-top: 65px;
 
 }
 
@@ -1377,14 +1457,15 @@
   height: 100px;
   color: #fff;
   font-size: 30px;
-  margin-top: 55px;
+  margin-top: 25px;
 }
 
 #xyzbox .ztext {
   width: 533px;
   height: 195px;
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
+  margin-top: 65px;
 }
 
 #xyzbox .zimgbox {
@@ -1414,9 +1495,9 @@
 
 #mytube .tubesize {
   width: 1162px;
-  height: 778px;
+  height: 720px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 50px;
   align-items: center;
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
@@ -1425,26 +1506,27 @@
 .tubesize h1 {
   color: #fff;
   font-size: 42px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .tubesize p {
   color: #fff;
   font-size: 26px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
-#mytube .tubesize img {
+#mytube .tubesize iframe {
   width: 100%;
-  height: 100%;
+  height: 80%;
   margin: 0 auto;
+  margin-top: 10px;
+  border: none;
 }
 
 #mytube .textsize {
   width: 1162px;
-  height: 690px;
+  height: 670px;
   margin: 0 auto;
-  margin-top: 40px;
   display: flex;  
   transform: translateY(100px); 
   transition: all 3s; opacity: 0;
@@ -1453,49 +1535,56 @@
 
 .textsize .leftsize {
   width: 581px;
-  height: 690px;
+  height: 590px;
 }
 
 .textsize .leftsize h2 {
   font-size: 30px;
   color: #fff;
-  margin: 0 24px;
+  margin: 0 20px;
 }
 
 .textsize .leftsize h3 {
   font-size: 22px;
   color: #fff;
   margin: 0 24px;
+  margin-top: 10px;
 }
 
 .textsize .leftsize p {
-  font-size: 17px;
+  font-size: 15px;
   color: #fff;
   letter-spacing: 1px;
   margin: 0 24px;
+  margin-top: 30px;
+  word-break: break-all;
+  
 }
 
 .textsize .rightsize {
   width: 581px;
-  height: 690px;
+  height: 590px;
 }
 
 .textsize .rightsize h3 {
   font-size: 26px;
   color: #fff;
   margin: 0 38px;
+  margin-top: 10px;
 }
 
 .textsize .rightsize p {
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   letter-spacing: 1px;
   margin: 0 42px;
+  margin-top: 10px;
+  word-break: break-all;
 }
 
 .textsize2 {
   width: 1162px;
-  height: 690px;
+  height: 590px;
   margin: 0 auto;
   display: flex;
   transform: translateY(100px);
@@ -1504,46 +1593,51 @@
 
 .textsize2 .leftsize2 {
   width: 581px;
-  height: 690px;
+  height: 590px;
   margin: 0 24px;
+  margin-bottom: 50px;
 }
 
 .textsize2 .leftsize2 h2 {
   font-size: 30px;
   color: #fff;
   margin: 0 5px;
+  margin-top: 10px;
 }
 
 .textsize2 .leftsize2 h3 {
   font-size: 22px;
   color: #fff;
-  margin: 0 5px;
+  margin-top: 15px;
 }
 
 .textsize2 .leftsize2 p {
-  font-size: 17px;
+  font-size: 15px;
   color: #fff;
   letter-spacing: 1px;
   margin: 0 5px;
-  margin-top: 10px;
+  margin-top: 25px;
+  word-break: break-all;
 }
 
 .textsize2 .rightsize2 {
   width: 581px;
-  height: 690px;
-  margin-top: 55px;
+  height: 590px;
+  margin-top: 45px;
 }
 
 .textsize2 .rightsize2 h3 {
   font-size: 22px;
   color: #fff;
   margin: 0 24px;
+  margin-top: 70px;
 }
 
 .textsize2 .rightsize2 p {
-  font-size: 17px;
+  font-size: 15px;
   color: #fff;
   letter-spacing: 1px;
   margin: 24px;
   padding: 0 5px;
+  word-break: break-all;
 }}
